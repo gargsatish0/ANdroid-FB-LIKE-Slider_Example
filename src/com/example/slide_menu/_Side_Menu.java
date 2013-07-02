@@ -12,8 +12,8 @@ public class _Side_Menu {
 	Cursor c;
 
 	public static int _voteOpen;
-	static final String[] MOBILE_OS = new String[] { "Address Book",
-			"Messages", "Photo Report", "Voting", "Payments", "Settings" };
+	static final String[] MOBILE_OS = new String[] { "item1",
+			"item2", "item3", "item4", "item5", "item6" };
 
 	public static Activity _activity;
 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <!-- Menu Panel -->
+
+    <RelativeLayout
+        android:id="@+id/menuPanel"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/menu_title_1"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:background="#666666"
+            android:clickable="false"
+            android:drawableRight="@drawable/ic_launcher"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="#808080"
+            android:textSize="23sp" >
+        </TextView>
+
+        <!--
+                       <ImageView
+					android:id="@+id/hoagoa"
+					android:layout_width="36dip"
+					 
+					android:layout_height="36dip"
+					android:layout_toRightOf="@+id/menu_title_1"
+				
+					android:layout_marginTop="0dp"
+					android:background="@drawable/hoaa" />
+        -->
+
+
+        <!--
+              <ImageView
+					android:id="@+id/hoaoa"
+					android:layout_width="30dip"
+					android:contentDescription="@null"
+					android:layout_height="20dip"
+					android:layout_toRightOf="@+id/menu_title_1"
+					android:layout_alignParentRight="true"
+						android:layout_alignParentTop="true"
+					
+					android:background="@drawable/hoa" />
+        -->
+
+        <View
+            android:id="@+id/menu_item_divider_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/menu_title_1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#4D4D4D" />
+
+        <ListView
+            android:id="@+id/message_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menu_item_divider_1"
+            android:background="#808080"
+            android:choiceMode="singleChoice"
+            android:clickable="false"
+            android:divider="@color/spner"
+            android:dividerHeight="0.2dip"
+            android:paddingBottom="50dip" />
+    </RelativeLayout>
+
+</LinearLayout>

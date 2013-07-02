@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#E6E6E6</color>
+    <color name="darkgrey">#6F7072</color>
+    <color name="black">#000000</color>
+    <color name="green">#6B8F24</color>
+    <color name="LightDarkGrey">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#006699</color> 
+    <color name ="Title">#666666</color>  
+    <color name ="spner">#4d4d4d</color>    
+    <color name ="ad_sub">#999999</color> 
+    <color name ="subtitle">#808080</color>   
+    <color name="image_border_start">#40990000</color>
+    <color name="image_border_end">#FF660000</color>
+    <color name="image_border_center">#FFFF3333</color>
+</resources>
